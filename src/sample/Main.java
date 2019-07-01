@@ -218,17 +218,17 @@ public class Main extends Application {
         this.primaryStage = primaryStage;
 
         Scene scene1 = new Scene(grid1, 500, 500);
-        scene1.getStylesheets().add(getClass().getResource("GUI.css").toExternalForm());
+        scene1.getStylesheets().add(getClass().getResource("GUIMain.css").toExternalForm());
         primaryStage.setScene(scene1);
         primaryStage.show();
 
 
         Scene scene2 = new Scene(grid2, 2000, 2000);
-        scene2.getStylesheets().add(getClass().getResource("GUI.css").toExternalForm());
+        scene2.getStylesheets().add(getClass().getResource("GUIMain.css").toExternalForm());
 
 
         Scene scene3 = new Scene(grid3, 700, 500);
-        scene3.getStylesheets().add(getClass().getResource("GUI3.css").toExternalForm());
+        scene3.getStylesheets().add(getClass().getResource("GUIBarGraph.css").toExternalForm());
 
         newScene = scene3;
 
