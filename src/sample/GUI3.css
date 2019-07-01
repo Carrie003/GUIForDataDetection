@@ -1,0 +1,21 @@
+.root{
+    -fx-background-color: black
+}
+
+
+.axis{
+    -fx-font-size: 15px;
+    -fx-font-family: "FreeMono, monospace";
+
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+}
+
+.back-button-3{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#16A085, #0E6655);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
